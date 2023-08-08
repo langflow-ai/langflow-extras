@@ -39,5 +39,5 @@ To run Langflow-Extras in a Docker container, run the following command:
 
 ```bash
 docker build -t langflow-extras .
-docker run -it langflow-extras
+docker run -p 5352:5352 -it langflow-extras
 ```
