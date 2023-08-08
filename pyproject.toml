@@ -10,8 +10,9 @@ langflow_extras = "langflow_extras.main:run_langflow_extras"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-langflow = { version = "^0.4.0rc0", allow-prereleases = true }
+langflow = "*"
 python-dotenv = "*"
+orjson = "3.9.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
