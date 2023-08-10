@@ -71,4 +71,4 @@ RUN --mount=type=cache,target=/root/.cache \
 FROM python-base as production
 COPY --from=builder-base $PYSETUP_PATH $PYSETUP_PATH
 EXPOSE 5352
-CMD ["langflow_extras", "--host", "0.0.0.0", "--port", "5352"]
+CMD ["langflow","serve", "--host", "0.0.0.0", "--port", "5352"]
