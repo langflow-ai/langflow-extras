@@ -6,7 +6,7 @@ authors = ["Gabriel Luiz Freitas Almeida <gabriel@logspace.ai>"]
 readme = "README.md"
 packages = [{ include = "langflow_extras", from = "src/" }]
 [tool.poetry.scripts]
-langflow_extras = "langflow_extras.main:run_langflow_extras"
+langflow = "langflow_extras.main:main"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
