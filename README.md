@@ -29,7 +29,7 @@ Any other modules you need to add can be added normally using poetry.
 To run Langflow-Extras, run the following command:
 
 ```bash
-poetry run python -m langflow_extras
+poetry run python -m langflow serve
 ```
 
 ## Docker
